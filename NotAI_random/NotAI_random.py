@@ -295,9 +295,13 @@ class Operation:
             
             try:
                 con.commit()  # 실제로 DB서버에 반영          
-                con.close()
             except Exception as e:
                 print('commit error :', e)
+                
+            try:
+                con.close()
+            except Exception as e:
+                print('DB 연결해제 실패 :', e)
         except Exception as e:
             print('저장 실패 :', e)
         

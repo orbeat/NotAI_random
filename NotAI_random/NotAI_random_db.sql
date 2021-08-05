@@ -40,9 +40,17 @@ create sequence NotAI_Random_Control3_seq;
 select * from NotAI_Random_game3;
 select * from NotAI_Random_Control3;
 
+-- 최근 1판 조회
+select * from NotAI_Random_Control3
+where nrc_nrg_no = (select max(nrg_no) from NotAI_Random_game3)
+order by nrc_no;
+
 select nrg_no, max(nrc_no)-min(nrc_no)+1, max(nrc_score), max(nrc_level), max(nrc_line) -- 게임 번호, 진행 프레임 수, 최종 점수, 최종 레벨, 최종 라인수
 from NotAI_Random_game3, NotAI_Random_Control3
 where nrg_no = nrc_nrg_no
 group by nrg_no
 order by nrg_no;
 
+-- 최근 1판 삭제
+delete from NotAI_Random_game3
+where nrg_no = (select max(nrg_no) from NotAI_Random_game3);
