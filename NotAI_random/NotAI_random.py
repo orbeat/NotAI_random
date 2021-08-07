@@ -515,7 +515,6 @@ class Operation:
                 print('신기록 달성', self.check_lobby)
                 NTAI_NAME = datetime.strftime(datetime.today(), '%y%m%d')
                 
-                # now = datetime.strftime(datetime.today(), '%Y%m%d-%H%M%S') # 나중에 게임 종료 시각으로 수정하기
                 createFolder(r'report\log')
                 createFolder(r'report\new_record')
                 self.full_screenshot = _full_screenshot(self.windows, npsw=False)
