@@ -15,7 +15,7 @@ Python version : 3.6.8
 	PyGetWindow		0.0.9
 	seaborn			0.11.1
 
----------------
+----------------
 
 Not Tetris 2
 
