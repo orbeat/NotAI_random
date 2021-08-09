@@ -239,4 +239,5 @@ class DB2csv:
         else: return False
     
 to_csv = DB2csv()
-print(to_csv.db2csv_pretreatment(17, 26, 98, 169))
+# print(to_csv.db2csv_pretreatment(17, 26, 98, 169))
+to_csv.db2csv_all()
