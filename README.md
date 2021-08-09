@@ -1,31 +1,19 @@
 # NotAI_random
 
 Python version : 3.6.8
-	
-Package			Version
 
-cx-Oracle		8.2.1
-
-Flask			2.0.1
-
-matplotlib		3.3.4
-
-numpy			1.19.5
-
-opencv-python	4.5.2.54
-
-pandas			1.1.4
-
-
-Pillow			8.2.0
-
-pip				21.1.3
-
-PyAutoGUI		0.9.52
-
-PyGetWindow		0.0.9
-
-seaborn			0.11.1
+	Package			Version
+	cx-Oracle		8.2.1
+	Flask			2.0.1
+	matplotlib		3.3.4
+	numpy			1.19.5
+	opencv-python	4.5.2.54
+	pandas			1.1.4
+	Pillow			8.2.0
+	pip				21.1.3
+	PyAutoGUI		0.9.52
+	PyGetWindow		0.0.9
+	seaborn			0.11.1
 
 
 
