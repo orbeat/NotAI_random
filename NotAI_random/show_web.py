@@ -39,6 +39,7 @@ def jsonTest():
             <div data-role="content">
                 <a href="#page''' + str(i+1) + r'''">
                     <img id="cover" src="https://github.com/orbeat/NotAI_random/blob/main/NotAI_random/show_example/NotAI_random_ppt/NotAI_random_ppt%20(''' + str(i) + r''').png?raw=true">
+                    <br><br><br><br><br>
                 </a>
             </div>
         </div>
